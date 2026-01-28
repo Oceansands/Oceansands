@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OceanSands Watersports</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background-color: #f4fbfd;
+      color: #033;
+    }
+    header {
+      background: linear-gradient(to right, #0077b6, #00b4d8);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0077b6;
+      margin-top: 2rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #023e8a;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 3rem;
+    }
+    a { color: #90e0ef; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>OceanSands Watersports</h1>
+  <p>Your adventure on the water starts here 🌊</p>
+</header>
+
+<section>
+  <h2>Our Watersport Activities</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Turtle Tours</h3>
+      <p>Explore the ocean and swim with turtles in their natural habitat.</p>
+    </div>
+    <div class="card">
+      <h3>Shipwreck Tours</h3>
+      <p>Discover historic shipwrecks beneath crystal-clear waters.</p>
+    </div>
+    <div class="card">
+      <h3>Banana Boat Ride</h3>
+      <p>Fun and excitement for groups and families.</p>
+    </div>
+    <div class="card">
+      <h3>Jet Skis</h3>
+      <p>Ride the waves and feel the thrill of high-speed adventure.</p>
+    </div>
+    <div class="card">
+      <h3>Water Skiing</h3>
+      <p>Perfect for beginners and experienced skiers.</p>
+    </div>
+    <div class="card">
+      <h3>Fishing Trips</h3>
+      <p>Enjoy relaxing and exciting fishing trips with experienced guides.</p>
+    </div>
+    <div class="card">
+      <h3>Island Tours</h3>
+      <p>Visit beautiful nearby islands and hidden coastal gems.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Turtle & Shipwreck Tours</h2>
+  <p>
+    Our Turtle and Shipwreck Tours last <strong>1 hour and 15 minutes</strong>. 
+    All equipment is provided for your safety and comfort.
+  </p>
+  <p>
+    If you cannot swim, group rates apply and arrangements can be made to ensure everyone enjoys the experience safely.
+  </p>
+  <p>
+    Please <strong>book with a preferred time</strong> so our team can better serve you.
+  </p>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>📧 Email: <a href="mailto:allanjemmott8@gmail.com">allanjemmott8@gmail.com</a></p>
+  <p>📞 Phone: +1 246-268-7892</p>
+  <p>📞 WhatsApp / International: +44 7716 336672</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 OceanSands Watersports. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
