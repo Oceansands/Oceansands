@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OceanSands Watersports</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8fcff;
+      color: #033;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 5rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #0077b6;
+      margin-bottom: 1rem;
+    }
+    .services, .pricing, .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+    }
+    .price {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #023e8a;
+    }
+    .gallery img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 14px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    footer {
+      background: #021f3f;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+    }
+    a { color: #90e0ef; text-decoration: none; }
+
+    /* WhatsApp Button */
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      padding: 14px 18px;
+      border-radius: 50px;
+      font-weight: 600;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>OceanSands Watersports</h1>
+  <p>Luxury ocean adventures • Memories for a lifetime</p>
+</header>
+
+<section>
+  <h2>Our Experiences</h2>
+  <div class="services">
+    <div class="card"><h3>Turtle Tours</h3><p>Swim with turtles in crystal-clear waters.</p></div>
+    <div class="card"><h3>Shipwreck Tours</h3><p>Explore historic wrecks beneath the sea.</p></div>
+    <div class="card"><h3>Banana Boat Ride</h3><p>High-energy fun for families and groups.</p></div>
+    <div class="card"><h3>Jet Skis</h3><p>Adrenaline-packed ocean rides.</p></div>
+    <div class="card"><h3>Water Skiing</h3><p>Beginner-friendly and advanced options.</p></div>
+    <div class="card"><h3>Fishing Trips</h3><p>Guided fishing adventures.</p></div>
+    <div class="card"><h3>Island Tours</h3><p>Relax and explore stunning islands.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Pricing</h2>
+  <div class="pricing">
+    <div class="card"><h3>Turtle & Shipwreck Tour</h3><p>1 hr 15 mins • Equipment included</p><p class="price">USD $80 per person</p></div>
+    <div class="card"><h3>Jet Ski Ride</h3><p>30 mins guided session</p><p class="price">USD $70</p></div>
+    <div class="card"><h3>Banana Boat</h3><p>Group fun experience</p><p class="price">USD $35 per person</p></div>
+    <div class="card"><h3>Water Skiing</h3><p>Instructor included</p><p class="price">USD $60</p></div>
+    <div class="card"><h3>Fishing Trip</h3><p>Half-day trip</p><p class="price">From USD $120</p></div>
+    <div class="card"><h3>Island Tour</h3><p>Scenic cruise</p><p class="price">From USD $90</p></div>
+  </div>
+  <p><em>Group rates available. Non-swimmers accommodated.</em></p>
+</section>
+
+<section>
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" />
+    <img src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21" />
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" />
+    <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206" />
+  </div>
+</section>
+
+<section>
+  <h2>Tour Information</h2>
+  <p>Turtle & Shipwreck Tours last <strong>1 hour and 15 minutes</strong>. All safety and snorkeling equipment is provided.</p>
+  <p>Please book with a preferred time so we can serve you better.</p>
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>📧 Email: <a href="mailto:allanjemmott8@gmail.com">allanjemmott8@gmail.com</a></p>
+  <p>📞 Phone: +1 246-268-7892</p>
+  <p>📞 WhatsApp / International: +44 7716 336672</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 OceanSands Watersports • Luxury Ocean Experiences</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/447716336672" target="_blank">💬 WhatsApp Us</a>
+
+</body>
+</html>
